@@ -1,0 +1,124 @@
+    Updating crates.io index
+ Downloading crates ...
+  Downloaded shellwords v1.1.0
+  Downloaded darling_macro v0.10.2
+  Downloaded darling v0.10.2
+  Downloaded env_logger v0.6.2
+  Downloaded crossbeam-deque v0.8.5
+  Downloaded humantime v1.3.0
+  Downloaded clap_lex v0.2.4
+  Downloaded thiserror v1.0.61
+  Downloaded itoa v1.0.2
+  Downloaded hermit-abi v0.3.9
+  Downloaded fixedbitset v0.4.1
+  Downloaded archery v0.4.0
+  Downloaded termcolor v1.1.3
+  Downloaded strsim v0.9.3
+  Downloaded either v1.8.0
+  Downloaded quote v1.0.36
+  Downloaded os_str_bytes v6.6.1
+  Downloaded log v0.4.17
+  Downloaded cargo-platform v0.1.2
+  Downloaded camino v1.0.9
+  Downloaded semver v1.0.9
+  Downloaded thiserror-impl v1.0.61
+  Downloaded crossbeam-epoch v0.9.18
+  Downloaded arrayvec v0.7.2
+  Downloaded crossbeam-utils v0.8.19
+  Downloaded darling_core v0.10.2
+  Downloaded indexmap v1.8.2
+  Downloaded ryu v1.0.10
+  Downloaded serde_derive v1.0.204
+  Downloaded hashbrown v0.11.2
+  Downloaded rpds v0.11.0
+  Downloaded textwrap v0.16.0
+  Downloaded serde v1.0.204
+  Downloaded crossbeam-channel v0.5.12
+  Downloaded serde_json v1.0.81
+  Downloaded aho-corasick v0.7.18
+  Downloaded rayon v1.6.1
+  Downloaded syn v1.0.95
+  Downloaded syn v2.0.70
+  Downloaded regex-syntax v0.6.25
+  Downloaded regex v1.5.5
+  Downloaded libc v0.2.126
+  Downloaded clap v3.2.25
+  Downloaded log-derive v0.3.2
+  Downloaded petgraph v0.6.2
+  Downloaded unicode-ident v1.0.0
+  Downloaded rustc_tools_util v0.2.0
+  Downloaded anyhow v1.0.57
+  Downloaded rayon-core v1.10.2
+   Vendoring aho-corasick v0.7.18 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/aho-corasick-0.7.18) to vendor/aho-corasick-0.7.18
+   Vendoring anyhow v1.0.57 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.57) to vendor/anyhow-1.0.57
+   Vendoring archery v0.4.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/archery-0.4.0) to vendor/archery-0.4.0
+   Vendoring arrayvec v0.7.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/arrayvec-0.7.2) to vendor/arrayvec-0.7.2
+   Vendoring atty v0.2.14 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/atty-0.2.14) to vendor/atty-0.2.14
+   Vendoring autocfg v1.1.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/autocfg-1.1.0) to vendor/autocfg-1.1.0
+   Vendoring bitflags v1.3.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/bitflags-1.3.2) to vendor/bitflags-1.3.2
+   Vendoring camino v1.0.9 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/camino-1.0.9) to vendor/camino-1.0.9
+   Vendoring cargo-platform v0.1.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cargo-platform-0.1.2) to vendor/cargo-platform-0.1.2
+   Vendoring cargo_metadata v0.18.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cargo_metadata-0.18.1) to vendor/cargo_metadata-0.18.1
+   Vendoring cfg-if v1.0.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cfg-if-1.0.0) to vendor/cfg-if-1.0.0
+   Vendoring clap v3.2.25 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap-3.2.25) to vendor/clap-3.2.25
+   Vendoring clap_lex v0.2.4 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/clap_lex-0.2.4) to vendor/clap_lex-0.2.4
+   Vendoring crossbeam-channel v0.5.12 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-channel-0.5.12) to vendor/crossbeam-channel-0.5.12
+   Vendoring crossbeam-deque v0.8.5 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-deque-0.8.5) to vendor/crossbeam-deque-0.8.5
+   Vendoring crossbeam-epoch v0.9.18 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-epoch-0.9.18) to vendor/crossbeam-epoch-0.9.18
+   Vendoring crossbeam-utils v0.8.19 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crossbeam-utils-0.8.19) to vendor/crossbeam-utils-0.8.19
+   Vendoring darling v0.10.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/darling-0.10.2) to vendor/darling-0.10.2
+   Vendoring darling_core v0.10.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/darling_core-0.10.2) to vendor/darling_core-0.10.2
+   Vendoring darling_macro v0.10.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/darling_macro-0.10.2) to vendor/darling_macro-0.10.2
+   Vendoring either v1.8.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/either-1.8.0) to vendor/either-1.8.0
+   Vendoring env_logger v0.6.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/env_logger-0.6.2) to vendor/env_logger-0.6.2
+   Vendoring fixedbitset v0.4.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fixedbitset-0.4.1) to vendor/fixedbitset-0.4.1
+   Vendoring fnv v1.0.7 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fnv-1.0.7) to vendor/fnv-1.0.7
+   Vendoring hashbrown v0.11.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hashbrown-0.11.2) to vendor/hashbrown-0.11.2
+   Vendoring hermit-abi v0.1.19 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hermit-abi-0.1.19) to vendor/hermit-abi-0.1.19
+   Vendoring hermit-abi v0.3.9 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hermit-abi-0.3.9) to vendor/hermit-abi-0.3.9
+   Vendoring humantime v1.3.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/humantime-1.3.0) to vendor/humantime-1.3.0
+   Vendoring ident_case v1.0.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ident_case-1.0.1) to vendor/ident_case-1.0.1
+   Vendoring indexmap v1.8.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/indexmap-1.8.2) to vendor/indexmap-1.8.2
+   Vendoring itertools v0.10.5 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/itertools-0.10.5) to vendor/itertools-0.10.5
+   Vendoring itoa v1.0.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/itoa-1.0.2) to vendor/itoa-1.0.2
+   Vendoring lazy_static v1.4.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lazy_static-1.4.0) to vendor/lazy_static-1.4.0
+   Vendoring libc v0.2.126 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.126) to vendor/libc-0.2.126
+   Vendoring log v0.4.17 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.17) to vendor/log-0.4.17
+   Vendoring log-derive v0.3.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-derive-0.3.2) to vendor/log-derive-0.3.2
+   Vendoring memchr v2.5.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/memchr-2.5.0) to vendor/memchr-2.5.0
+   Vendoring minimal-lexical v0.2.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/minimal-lexical-0.2.1) to vendor/minimal-lexical-0.2.1
+   Vendoring nom v7.1.3 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nom-7.1.3) to vendor/nom-7.1.3
+   Vendoring num_cpus v1.16.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/num_cpus-1.16.0) to vendor/num_cpus-1.16.0
+   Vendoring os_str_bytes v6.6.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/os_str_bytes-6.6.1) to vendor/os_str_bytes-6.6.1
+   Vendoring petgraph v0.6.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/petgraph-0.6.2) to vendor/petgraph-0.6.2
+   Vendoring proc-macro2 v1.0.86 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proc-macro2-1.0.86) to vendor/proc-macro2-1.0.86
+   Vendoring quick-error v1.2.3 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quick-error-1.2.3) to vendor/quick-error-1.2.3
+   Vendoring quote v1.0.36 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/quote-1.0.36) to vendor/quote-1.0.36
+   Vendoring rayon v1.6.1 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-1.6.1) to vendor/rayon-1.6.1
+   Vendoring rayon-core v1.10.2 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rayon-core-1.10.2) to vendor/rayon-core-1.10.2
+   Vendoring regex v1.5.5 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.5.5) to vendor/regex-1.5.5
+   Vendoring regex-syntax v0.6.25 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-syntax-0.6.25) to vendor/regex-syntax-0.6.25
+   Vendoring rpds v0.11.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rpds-0.11.0) to vendor/rpds-0.11.0
+   Vendoring rustc_tools_util v0.2.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rustc_tools_util-0.2.0) to vendor/rustc_tools_util-0.2.0
+   Vendoring ryu v1.0.10 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ryu-1.0.10) to vendor/ryu-1.0.10
+   Vendoring semver v1.0.9 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/semver-1.0.9) to vendor/semver-1.0.9
+   Vendoring serde v1.0.204 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.204) to vendor/serde-1.0.204
+   Vendoring serde_derive v1.0.204 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.204) to vendor/serde_derive-1.0.204
+   Vendoring serde_json v1.0.81 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.81) to vendor/serde_json-1.0.81
+   Vendoring shellwords v1.1.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/shellwords-1.1.0) to vendor/shellwords-1.1.0
+   Vendoring static_assertions v1.1.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/static_assertions-1.1.0) to vendor/static_assertions-1.1.0
+   Vendoring strsim v0.9.3 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/strsim-0.9.3) to vendor/strsim-0.9.3
+   Vendoring strsim v0.10.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/strsim-0.10.0) to vendor/strsim-0.10.0
+   Vendoring syn v1.0.95 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-1.0.95) to vendor/syn-1.0.95
+   Vendoring syn v2.0.70 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/syn-2.0.70) to vendor/syn-2.0.70
+   Vendoring termcolor v1.1.3 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/termcolor-1.1.3) to vendor/termcolor-1.1.3
+   Vendoring textwrap v0.16.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/textwrap-0.16.0) to vendor/textwrap-0.16.0
+   Vendoring thiserror v1.0.61 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-1.0.61) to vendor/thiserror-1.0.61
+   Vendoring thiserror-impl v1.0.61 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/thiserror-impl-1.0.61) to vendor/thiserror-impl-1.0.61
+   Vendoring unicode-ident v1.0.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicode-ident-1.0.0) to vendor/unicode-ident-1.0.0
+   Vendoring winapi v0.3.9 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/winapi-0.3.9) to vendor/winapi-0.3.9
+   Vendoring winapi-i686-pc-windows-gnu v0.4.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/winapi-i686-pc-windows-gnu-0.4.0) to vendor/winapi-i686-pc-windows-gnu-0.4.0
+   Vendoring winapi-util v0.1.5 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/winapi-util-0.1.5) to vendor/winapi-util-0.1.5
+   Vendoring winapi-x86_64-pc-windows-gnu v0.4.0 (/home/endericedragon/.cargo/registry/src/index.crates.io-6f17d22bba15001f/winapi-x86_64-pc-windows-gnu-0.4.0) to vendor/winapi-x86_64-pc-windows-gnu-0.4.0
+To use vendored sources, add this to your .cargo/config.toml for this project:
+
