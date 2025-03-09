@@ -45,6 +45,13 @@ impl FuncMetadata {
             0
         };
 
+        // // 获取函数签名
+        // let _fn_sig = acx.tcx.fn_sig(def_id_of_func);
+        // if let Some(impl_def_id) = acx.tcx.impl_of_method(def_id_of_func) {
+        //     let _subject = acx.tcx.impl_subject(impl_def_id);
+        //     // println!("Function {:?} is a method of {:?}", def_id_of_func, subject);
+        // }
+
         // 沃趣，找到了这个函数定义在哪个文件里头！！！！
         // Real(Remapped { local_path: Some("/home/endericedragon/.rustup/toolchains/nightly-2024-02-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/range.rs"), virtual_name: "/rustc/bf3c6c5bed498f41ad815641319a1ad9bcecb8e8/library/core/src/ops/range.rs" })
         // Real(LocalPath("/home/endericedragon/playground/example_crate/fastrand-2.1.0/src/lib.rs"))
