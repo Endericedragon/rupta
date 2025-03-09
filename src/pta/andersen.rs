@@ -191,7 +191,7 @@ impl<'pta, 'tcx, 'compilation> AndersenPTA<'pta, 'tcx, 'compilation> {
     fn add_call_edge(&mut self, callsite: &Rc<CallSite>, callee: &FuncId) {
         let caller = callsite.func;
         if !self.call_graph.add_edge(callsite.into(), caller, *callee) {
-            return; 
+            return;
         }
         let new_inter_proc_edges = self.pag.add_inter_procedural_edges(self.acx, callsite, *callee);
         for edge in new_inter_proc_edges {
@@ -224,7 +224,7 @@ impl<'pta, 'tcx, 'compilation> PointerAnalysis<'tcx, 'compilation> for AndersenP
         self.pre_analysis_time += rta.analysis_time;
         self.stack_filter = Some(StackFilter::new(rta.call_graph));
         self.pre_analysis_time += self.stack_filter.as_ref().unwrap().fra_time();
-        println!("Pre-analysis time {}", 
+        println!("Pre-analysis time {}",
             humantime::format_duration(self.pre_analysis_time).to_string()
         );
     }
@@ -270,7 +270,7 @@ impl<'pta, 'tcx, 'compilation> PointerAnalysis<'tcx, 'compilation> for AndersenP
     }
 
     /// Finalize the analysis.
-    fn finalize(&self) {
+    fn finalize(&mut self) {
         // dump call graph, points-to results
         results_dumper::dump_results(self.acx, &self.call_graph, &self.pt_data, &self.pag);
 

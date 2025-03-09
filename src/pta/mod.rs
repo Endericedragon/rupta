@@ -44,7 +44,8 @@ pub trait PointerAnalysis<'tcx, 'compilation> {
     // Solve the worklist problem.
     fn propagate(&mut self);
     // Finalize the analysis.
-    fn finalize(&self);
+    // fn finalize(&self);
+    fn finalize(&mut self);
 
     fn analyze(&mut self) {
         self.pre_analysis();
@@ -54,7 +55,7 @@ pub trait PointerAnalysis<'tcx, 'compilation> {
 
         self.initialize();
         self.propagate();
-        
+
         let elapsed = now.elapsed();
         println!("Pointer analysis completed.");
         println!(
@@ -91,7 +92,7 @@ impl PTACallbacks {
                 PTAType::CallSiteSensitive => {
                     Box::new(
                         ContextSensitivePTA::new(
-                            &mut acx, 
+                            &mut acx,
                             KCallSiteSensitive::new(self.options.context_depth as usize)
                         ),
                     )
