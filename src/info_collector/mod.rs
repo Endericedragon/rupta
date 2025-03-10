@@ -1,12 +1,12 @@
 pub mod callsite_metadata;
 pub mod crate_metadata;
 pub mod func_metadata;
-pub mod vec_set;
+pub mod vec_map;
 
 use rustc_span::{FileName, RealFileName};
 use serde::{ser::SerializeStruct, Serialize};
 use std::{collections::HashSet, path::PathBuf};
-use vec_set::VecSet;
+use vec_map::VecMap;
 
 pub use callsite_metadata::CallSiteMetadata;
 pub use crate_metadata::CrateMetadata;
@@ -16,7 +16,7 @@ pub use func_metadata::FuncMetadata;
 #[derive(Default)]
 pub struct OverallMetadata {
     pub callsite_metadata: HashSet<CallSiteMetadata>,
-    pub crate_metadata: VecSet<CrateMetadata>,
+    pub crate_metadata: VecMap<CrateMetadata>,
     pub func_metadata: HashSet<FuncMetadata>,
 }
 

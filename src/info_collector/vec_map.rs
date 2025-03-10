@@ -10,18 +10,18 @@ use std::rc::Rc;
 use serde::ser::SerializeSeq;
 use serde::Serialize;
 
-pub struct VecSet<T> {
+pub struct VecMap<T> {
     pub data: Vec<Rc<T>>,
     included: HashMap<Rc<T>, usize>,
 }
 
-impl<T> Default for VecSet<T> {
+impl<T> Default for VecMap<T> {
     fn default() -> Self {
         Self { data: Default::default(), included: Default::default() }
     }
 }
 
-impl<T: Eq + Hash + Serialize> Serialize for VecSet<T> {
+impl<T: Eq + Hash + Serialize> Serialize for VecMap<T> {
     fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
     where
         S: serde::Serializer {
@@ -34,7 +34,7 @@ impl<T: Eq + Hash + Serialize> Serialize for VecSet<T> {
     }
 }
 
-impl<T: Eq + Hash> Index<usize> for VecSet<T> {
+impl<T: Eq + Hash> Index<usize> for VecMap<T> {
     type Output = T;
 
     fn index(&self, index: usize) -> &Self::Output {
@@ -42,7 +42,7 @@ impl<T: Eq + Hash> Index<usize> for VecSet<T> {
     }
 }
 
-impl<T: Eq + Hash> VecSet<T> {
+impl<T: Eq + Hash> VecMap<T> {
     pub fn new() -> Self {
         Self {
             data: Vec::new(),
@@ -52,10 +52,10 @@ impl<T: Eq + Hash> VecSet<T> {
 
     pub fn insert(&mut self, value: T) -> usize {
         let new_data = Rc::new(value);
-        let idx_of_new_data = self.data.len();
         match self.included.entry(Rc::clone(&new_data)) {
             std::collections::hash_map::Entry::Occupied(oe) => *oe.get(),
             std::collections::hash_map::Entry::Vacant(ve) => {
+                let idx_of_new_data = self.data.len();
                 self.data.push(new_data);
                 *ve.insert(idx_of_new_data)
             }
