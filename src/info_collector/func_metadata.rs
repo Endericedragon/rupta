@@ -64,17 +64,16 @@ impl FuncMetadata {
             Err(message) => Err(message.to_owned()),
         };
 
-        let crate_metadata_idx = if let Some(crate_metadata) = match manifest_path {
-            Ok(path) => Some(super::CrateMetadata::new(&path, &acx.working_dir)),
-
+        let crate_metadata_idx = match manifest_path {
+            Ok(path) => Some(
+                acx.overall_metadata
+                    .crate_metadata
+                    .insert(super::CrateMetadata::new(&path, &acx.working_dir)),
+            ),
             Err(message) => {
                 eprintln!("Error: {}", message);
                 None
             }
-        } {
-            Some(acx.overall_metadata.crate_metadata.insert(crate_metadata))
-        } else {
-            None
         };
 
         let func_metadata = FuncMetadata::new(
